@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <section>
+      <h1>Shopping Cart Total Calculator</h1>
+
+      <div class="itnm">
+        <label for="itemName">Item Name:</label>
+        <input type="text" id="itemName"/>
+      </div>
+      <div class="prc">
+        <label for="itemPrice">Item Price:</label>
+        <input type="number" id="itemPrice" min="0" step="1" />
+      
+        <label for="itemnum">No of item:</label>
+        <input type="number" id="itemnum" min="0" step="1" />
+      </div>
+
+      <button id="additembtn">Add Item to Cart</button>
+      <div id="cartTotal">Total: ₹ 0.00</div>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>

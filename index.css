@@ -1,0 +1,105 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+section
+{
+    height: 50vh;
+    width: auto;
+    background-color: rgba(0, 0, 0,0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1
+{
+    font-size: 28px;
+    margin: 2px auto;
+    color: white;
+
+}
+
+
+
+.itnm
+{
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+label
+{
+    font-weight: 450;
+    color: white;
+
+}
+
+input
+{
+    background-color: rgb(167, 163, 163);
+    color: white;
+    font-size: 15px;
+    border: 1px solid black;
+
+}
+
+.itnm>label{
+    width: 20%;
+}
+
+.itnm>input
+{
+    width: 80%;
+    height: 30px;
+    
+}
+
+.prc
+{
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.prc>label{
+    width: 20%;
+}
+
+.prc>input
+{
+    width: 30%;
+    height: 30px;
+}
+
+#additembtn
+{
+    width: 80%;
+    margin: 0 auto;
+    height: 40px;
+    background-color: rgb(167, 163, 163);
+    color: white;
+    font-size: 17px;
+    border: 1px solid black;
+}
+
+#cartTotal
+{
+    margin: 0 auto;
+    color: white;
+    font-size: 22px;
+}
