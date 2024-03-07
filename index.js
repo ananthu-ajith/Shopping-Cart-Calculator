@@ -3,16 +3,17 @@ const cartTotal=document.getElementById('cartTotal');
 const itemnum=document.getElementById('itemnum');
 const itemPrice=document.getElementById('itemPrice');
 
+
 let sum=0;
 let total=0;
 
 additembtn.addEventListener('click', function() {
 
-    const text=itemName.value;
+    const text=itemName.value.trim();
     const price = parseFloat(itemPrice.value, 10);
     const numb = parseInt(itemnum.value, 10);
 
-    if(price>0 && numb>0 && itemName !=='')
+    if(price>0 && numb>0 && text !== "")
     {
 
     sum=price*numb;
@@ -28,5 +29,7 @@ else{
     alert("Provide valid number");
 }
 
+console.log(typeof text)
+console.log(text)
 
 });

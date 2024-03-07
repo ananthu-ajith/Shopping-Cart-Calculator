@@ -53,8 +53,9 @@ input
 {
     background-color: rgb(167, 163, 163);
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     border: 1px solid black;
+    font-weight: 500;
 
 }
 
@@ -91,9 +92,10 @@ input
     width: 80%;
     margin: 0 auto;
     height: 40px;
-    background-color: rgb(167, 163, 163);
+    background-color: rgb(139, 139, 139);
     color: white;
     font-size: 17px;
+    font-weight: 500;
     border: 1px solid black;
 }
 
